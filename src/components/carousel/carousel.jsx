@@ -12,7 +12,6 @@ function carousel() {
                     <img
                         src={norepimg}
                         className="d-block w-100" alt="..." />
-
                 </div>
                 <div className="carousel-item">
                     <img
