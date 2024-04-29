@@ -3,6 +3,12 @@ body {
 }
 
 /* header info styling */
+.header-navbar-wrapper {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
 header {
     text-align: center;
     padding: 0.5% 1%;
@@ -43,23 +49,41 @@ nav {
 
 .nav-link {
     letter-spacing: 0.5px;
-}
-
-.nav-link:hover {
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.dropdown-toggle {
     color: black;
 }
 
+.nav-link:hover {
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+
 /* carousel styling */
 .carousel-inner {
-    height: 80vh;
+    height: 100%;
     width: auto;
     max-width: 100vw;
     object-fit: cover;
+}
+
+
+/* footer styling */
+footer {
+    padding-top: 0.1%;
+    margin-bottom: 0;
+}
+
+.text-reset {
+    text-decoration: none;
+}
+
+.text-reset:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    background-Color: #897663;
+    color: white;
 }
 
 

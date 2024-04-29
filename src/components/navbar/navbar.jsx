@@ -4,10 +4,10 @@ import { HiOutlineShoppingCart } from "react-icons/hi";
 
 function navbar() {
     return (
-        <nav className="navbar sticky-top navbar-expand-md">
+        <nav className="navbar sticky-top navbar-expand-lg">
             <div className="navbar-container container">
                 <a className="navbar-brand" href="/">
-                    <div className="main-text">SIMPLONS</div>
+                    <div className="main-text">SIMPLON</div>
                     <div className="sub-text">Beauty Care</div>
                 </a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,10 +16,10 @@ function navbar() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">About Us</a>
+                            <a className="nav-link" aria-current="page" href="/">About Us</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Locations</a>
+                            <a className="nav-link" aria-current="page" href="/">Contact Us</a>
                         </li>
                         <li className="nav-item dropdown">
                             <a className="nav-link  dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -34,7 +34,7 @@ function navbar() {
                             </ul>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link active" aria-current="page" href="/">Cart <HiOutlineShoppingCart /></a>
+                            <a className="nav-link" aria-current="page" href="/">Cart <HiOutlineShoppingCart /></a>
                         </li>
                     </ul>
                 </div>

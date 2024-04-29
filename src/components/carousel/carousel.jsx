@@ -11,17 +11,17 @@ function carousel() {
                 <div className="carousel-item active">
                     <img
                         src={norepimg}
-                        className="d-block w-100" alt="..." />
+                        className="img-fluid small-image d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
                     <img
                         src={bobieimg}
-                        className="d-block w-100" alt="..." />
+                        className="img-fluid small-image d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">
                     <img
                         src={moisturizerimg}
-                        className="d-block w-100" alt="..." />
+                        className="img-fluid small-image d-block w-100" alt="..." />
                 </div>
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
