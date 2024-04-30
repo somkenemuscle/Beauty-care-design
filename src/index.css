@@ -67,7 +67,16 @@ nav {
 .best-sellers-div{
     margin-bottom: 1%;
 }
-
+.btn{
+    background-color: #897663;
+    color: white;
+}
+.btn:hover{
+    background-color: #9b846e;
+    font-weight: bold;
+    transition: 0.2s;
+    color: white;
+}
 
 /* footer styling */
 footer {
