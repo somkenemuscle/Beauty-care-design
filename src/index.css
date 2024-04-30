@@ -63,6 +63,12 @@ nav {
     /* Optional: Ensures the image covers the entire container */
 }
 
+/* Best sellers section styling */
+.best-sellers-div{
+    margin-bottom: 1%;
+}
+
+
 /* footer styling */
 footer {
     padding-top: 0.1%;

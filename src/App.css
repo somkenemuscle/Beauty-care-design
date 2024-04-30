@@ -1,3 +1,13 @@
+/* best sellers section */
+#best-sellers-section{
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+#best-sellers-section h4{
+    text-align: center;
+    padding-bottom: 1%;
+}
+
 /* services/promo styling section */
 #promo-section {
     text-align: center;
@@ -21,7 +31,6 @@
 /* media width styling */
 @media (max-width: 700px) {
     #promo-section {
-        padding-top: 4%;
         padding-bottom: 4%;
     }
 
