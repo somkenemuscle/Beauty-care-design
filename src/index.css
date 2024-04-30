@@ -1,5 +1,5 @@
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 /* header info styling */
@@ -40,7 +40,6 @@ nav {
     font-size: 15px;
     letter-spacing: 3px;
     margin-top: -7px;
-    font-family: "Josefin Sans", sans-serif;
 }
 
 .navbar-brand:hover {
@@ -50,22 +49,19 @@ nav {
 .nav-link {
     letter-spacing: 0.5px;
     color: black;
+    font-weight: light;
 }
 
 .nav-link:hover {
     text-decoration: underline;
-    transition: 0.3s;
 }
 
-
-/* carousel styling */
-.carousel-inner {
-    height: 100%;
-    width: auto;
-    max-width: 100vw;
+.carousel-item img {
+    height: 80vh;
+    max-width: 100%;
     object-fit: cover;
+    /* Optional: Ensures the image covers the entire container */
 }
-
 
 /* footer styling */
 footer {

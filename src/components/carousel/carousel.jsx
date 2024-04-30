@@ -1,7 +1,6 @@
 import React from 'react'
-import bobieimg from '../../images/BOBIEBROWN.png'
-import norepimg from '../../images/img.png'
-import moisturizerimg from '../../images/moisturizer.png'
+import norepimg from '../../images/nora-topicals-i85krq-mGTg-unsplash.jpg'
+import moisturizerimg from '../../images/pratiksha-mohanty-hDTpVVEm6wg-unsplash.jpg'
 
 
 function carousel() {
@@ -11,11 +10,6 @@ function carousel() {
                 <div className="carousel-item active">
                     <img
                         src={norepimg}
-                        className="img-fluid small-image d-block w-100" alt="..." />
-                </div>
-                <div className="carousel-item">
-                    <img
-                        src={bobieimg}
                         className="img-fluid small-image d-block w-100" alt="..." />
                 </div>
                 <div className="carousel-item">

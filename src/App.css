@@ -1,0 +1,37 @@
+/* services/promo styling section */
+#promo-section {
+    text-align: center;
+    padding: 2%;
+}
+
+#promo-section h2 {
+    color: #897663;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#promo-section p {
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+/* media width styling */
+@media (max-width: 700px) {
+    #promo-section {
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    #promo-section p {
+        max-width: 70%;
+        margin: 0 auto;
+        padding-left: 0.5%;
+        padding-right: 0.5%;
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+}

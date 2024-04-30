@@ -14,10 +14,16 @@ function App() {
         {/* navbar section */}
         <Navbar />
       </div>
+
       {/* carousel section */}
       <Carousel />
 
-      
+      {/* promo section */}
+      <section id='promo-section'>
+        <h2>OUR SERVICES</h2>
+        <p>Get 20% discount on all products which will be effective from 22nd April till 5th May 2024</p>
+      </section>
+
 
       {/* footer section */}
       <Footer />
