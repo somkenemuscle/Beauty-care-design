@@ -47,31 +47,50 @@ nav {
 }
 
 .nav-link {
-    letter-spacing: 0.5px;
+    letter-spacing: -0.8px;
     color: black;
-    font-weight: light;
+    font-weight: 400.3;
 }
 
 .nav-link:hover {
     text-decoration: underline;
 }
 
+/* carousel styling */
 .carousel-item img {
     height: 80vh;
     max-width: 100%;
     object-fit: cover;
-    /* Optional: Ensures the image covers the entire container */
 }
 
 /* Best sellers section styling */
-.best-sellers-div{
+.card-title {
+    text-align: left;
+    line-height: -2;
+    letter-spacing: -2px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.card-text {
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+.card-star{
+    float: right;
+}
+
+.best-sellers-div {
     margin-bottom: 1%;
 }
-.btn{
+
+.btn {
     background-color: #897663;
     color: white;
+    width: 100%;
 }
-.btn:hover{
+
+.btn:hover {
     background-color: #9b846e;
     font-weight: bold;
     transition: 0.2s;
@@ -82,6 +101,7 @@ nav {
 footer {
     padding-top: 0.1%;
     margin-bottom: 0;
+    margin-top: 1%;
 }
 
 .text-reset {

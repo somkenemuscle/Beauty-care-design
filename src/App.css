@@ -1,12 +1,70 @@
 /* best sellers section */
-#best-sellers-section{
+#best-sellers-section {
     padding-top: 2%;
     padding-bottom: 4%;
 }
-#best-sellers-section h4{
+
+#best-sellers-section h2 {
     text-align: center;
     padding-bottom: 1%;
+    color: #897663;
 }
+
+/* marque infinite scroll section styling */
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.sponsors-container {
+    padding: 50px 0;
+    margin: 0 5%;
+}
+
+.sponsors-container h2 {
+    text-align: center;
+    color: #897663;
+    font-weight: 600;
+    letter-spacing: -3px;
+    padding-bottom: 20px;
+}
+
+.logos {
+    overflow: hidden;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 30px;
+    margin: 0 40px;
+}
+
 
 /* services/promo styling section */
 #promo-section {
