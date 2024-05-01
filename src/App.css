@@ -1,6 +1,6 @@
 /* best sellers section */
 #best-sellers-section {
-    padding-top: 2%;
+    padding-top: 5px;
     padding-bottom: 4%;
 }
 
@@ -11,6 +11,7 @@
     font-weight: 600;
     color: #897663;
 }
+
 
 /* marque infinite scroll section styling */
 @keyframes slide {
@@ -67,8 +68,7 @@
     margin: 0 40px;
 }
 
-
-/* services/promo styling section */
+/* services-promo styling section */
 #promo-section {
     text-align: center;
     padding: 2%;

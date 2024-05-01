@@ -49,7 +49,7 @@ nav {
 .nav-link {
     letter-spacing: -0.8px;
     color: black;
-    font-weight: 400.3;
+    font-weight: 400;
 }
 
 .nav-link:hover {
@@ -64,6 +64,14 @@ nav {
 }
 
 /* Best sellers section styling */
+.card:hover {
+    cursor: pointer;
+}
+
+.card img:hover {
+    opacity: 0.8;
+}
+
 .card-title {
     text-align: left;
     line-height: -2;
@@ -85,14 +93,14 @@ nav {
     margin-bottom: 1%;
 }
 
-.btn {
+.btn-product-card {
     background-color: #897663;
     color: white;
     width: 100%;
     font-family: sans-serif;
 }
 
-.btn:hover {
+.btn-product-card:hover {
     background-color: white;
     font-weight: bold;
     transition: 0.3s;
@@ -100,14 +108,14 @@ nav {
     border: 1px solid #897663;
 }
 
-#imgg {
-    height: 50vh;
-    width: 100%;
-    object-fit: cover; /* or any other value like contain, fill, etc. depending on your need */
+/* image section styling */
+#img-bg {
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1621277906553-047eaaef4400?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
 }
-#img-section{
-    padding: 20px 0;
-}
+
 /* footer styling */
 footer {
     padding-top: 0.1%;

@@ -1,6 +1,5 @@
 import React from 'react'
-// import { HiOutlineShoppingCart } from "react-icons/hi";
-// import { FaStar } from "react-icons/fa";
+
 function productCards({ src, name, price }) {
   return (
     <div className="card">
@@ -8,8 +7,7 @@ function productCards({ src, name, price }) {
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <p className="card-text">$ {price} USD </p>
-        {/* <p style={{ color: 'black' }}><FaStar /><FaStar /><FaStar /><FaStar /><span style={{ color: 'black' }}><FaStar /></span></p> */}
-        <a href="/" className="btn btn-sm" data-mdb-ripple-init>ADD TO CART  </a>
+        <a href="/" className="btn btn-product-card btn-sm" data-mdb-ripple-init>ADD TO CART  </a>
       </div>
     </div>
   )

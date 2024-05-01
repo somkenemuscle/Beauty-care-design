@@ -4,7 +4,7 @@ import Carousel from './components/carousel/carousel';
 import Footer from './components/footer/footer';
 import ProductCards from './components/productCards/productCards';
 import logo1 from '../src/images/logos/3m.svg'
-import logo2 from '../src/images/logos/forbes.svg'
+import logo2 from '../src/images/logos/barstool-store.svg'
 import logo3 from '../src/images/logos/menshealth.svg'
 import logo4 from '../src/images/logos/mrbeast.svg'
 import logo5 from '../src/images/logos/forbes.svg'
@@ -29,7 +29,7 @@ function App() {
       {/* promo section */}
       <section id='promo-section'>
         <h2>START YOUR SELF CARE JOURNEY</h2>
-        <p>Self care is a personal journey and we're here to guide you along the way. Live chat our self care experts for more help.</p>
+        <p>Self care is a personal journey and we're here to guide you along the way. Contact our self care experts for more help.</p>
       </section>
 
 
@@ -72,7 +72,7 @@ function App() {
 
       {/* marque sponsors logo section */}
       <section className='sponsors-container'>
-        <h2>SPONSORS</h2>
+        <h2>OUR SPONSORS</h2>
         <div className="logos">
           <div className="logos-slide">
             <img src={logo1} alt='...' />
@@ -103,10 +103,8 @@ function App() {
       </section>
 
       {/* img section */}
-      <div id='img-section'>
-        <img id='imgg' src="https://images.unsplash.com/photo-1621277906553-047eaaef4400?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+      <div id='img-bg'>
       </div>
-
 
       {/* promo section */}
       <section id='promo-section'>
@@ -114,6 +112,8 @@ function App() {
         <p>Get 20% discount on all products which will be effective from 22nd April till 5th May 2024</p>
       </section>
 
+      {/* feedback option */}
+      
       {/* footer section */}
       <Footer />
     </div>
