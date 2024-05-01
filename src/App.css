@@ -6,7 +6,9 @@
 
 #best-sellers-section h2 {
     text-align: center;
+    letter-spacing: -0.8px;
     padding-bottom: 1%;
+    font-weight: 600;
     color: #897663;
 }
 
@@ -75,7 +77,7 @@
 #promo-section h2 {
     color: #897663;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: -0.8px;
 }
 
 #promo-section p {
@@ -83,7 +85,7 @@
     margin: 0 auto;
     font-size: 25px;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 /* media width styling */

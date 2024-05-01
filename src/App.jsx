@@ -28,21 +28,21 @@ function App() {
 
       {/* promo section */}
       <section id='promo-section'>
-        <h2>OUR SERVICES</h2>
-        <p>Get 20% discount on all products which will be effective from 22nd April till 5th May 2024</p>
+        <h2>START YOUR SELF CARE JOURNEY</h2>
+        <p>Self care is a personal journey and we're here to guide you along the way. Live chat our self care experts for more help.</p>
       </section>
 
 
       {/* best sellers section */}
       <section id='best-sellers-section'>
-        <h2>Shop Our Best Sellers</h2>
+        <h2>SHOP OUR BEST SELLERS</h2>
         <div className="container text-center">
           <div className="row">
             <div className="best-sellers-div col-xl-3 col-md-6 col-sm-6">
               <ProductCards
                 src='https://images.unsplash.com/photo-1600428877878-1a0fd85beda8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'
                 name='Vitamin C Serum'
-                price='8.15'
+                price='18.15'
               />
             </div>
             <div className="best-sellers-div col-xl-3 col-md-6 col-sm-6">
@@ -102,7 +102,17 @@ function App() {
         </div>
       </section>
 
-      
+      {/* img section */}
+      <div id='img-section'>
+        <img id='imgg' src="https://images.unsplash.com/photo-1621277906553-047eaaef4400?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
+      </div>
+
+
+      {/* promo section */}
+      <section id='promo-section'>
+        <h2>OUR SERVICES</h2>
+        <p>Get 20% discount on all products which will be effective from 22nd April till 5th May 2024</p>
+      </section>
 
       {/* footer section */}
       <Footer />

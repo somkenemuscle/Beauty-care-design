@@ -1,5 +1,5 @@
 import React from 'react'
-import { HiOutlineShoppingCart } from "react-icons/hi";
+// import { HiOutlineShoppingCart } from "react-icons/hi";
 // import { FaStar } from "react-icons/fa";
 function productCards({ src, name, price }) {
   return (
@@ -7,9 +7,9 @@ function productCards({ src, name, price }) {
       <img src={src} className="card-img-top" alt="Fissure in Sandstone" />
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
-        <p className="card-text">PRICE: $ {price} USD </p>
+        <p className="card-text">$ {price} USD </p>
         {/* <p style={{ color: 'black' }}><FaStar /><FaStar /><FaStar /><FaStar /><span style={{ color: 'black' }}><FaStar /></span></p> */}
-        <a href="/" className="btn btn-sm" data-mdb-ripple-init>ADD TO CART  <HiOutlineShoppingCart /></a>
+        <a href="/" className="btn btn-sm" data-mdb-ripple-init>ADD TO CART  </a>
       </div>
     </div>
   )
